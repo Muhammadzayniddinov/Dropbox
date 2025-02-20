@@ -1,0 +1,633 @@
+2025-01-16 09:15:50,542 - INFO - Process started at 2025-01-16 09:15:50
+2025-01-16 09:15:50,610 - INFO - Connecting to db
+2025-01-16 09:15:50,662 - INFO - Fetching data from DB...
+2025-01-16 09:15:51,489 - INFO - Folder path calculating
+2025-01-16 09:15:51,524 - INFO - Connecting to Dropbox
+2025-01-16 09:15:51,616 - INFO - Uploading images to Dropbox...
+2025-01-16 09:15:51,626 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/nan.jpg
+2025-01-16 09:15:51,630 - INFO - Request to files/upload
+2025-01-16 09:15:51,630 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/nan.jpg
+2025-01-16 09:15:51,630 - INFO - Uploading to path: //1/To be Filed(1-3)/nan.jpg
+2025-01-16 09:15:51,632 - INFO - Request to files/upload
+2025-01-16 09:15:51,632 - INFO - Uploading to path: //1/To be Filed(1-3)/BULK_EXPORT/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/i1-3-1-1.jpg
+2025-01-16 09:15:51,632 - INFO - Request to files/upload
+2025-01-16 09:15:51,633 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:51,634 - INFO - Request to files/upload
+2025-01-16 09:15:51,634 - INFO - Request to files/upload
+2025-01-16 09:15:52,985 - ERROR - Failed to upload nan: ApiError('943d68de2d5e41baa09b39ee81780db8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumjCZNe8oQfW2Hoz0unHORFL93gf0oNdczRjnt6949hliQ')))
+2025-01-16 09:15:52,987 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:52,987 - INFO - Request to files/upload
+2025-01-16 09:15:53,001 - ERROR - Failed to upload nan: ApiError('096039375a9e47f38d5ef49f44533e0b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunpbwmXGYfZrTGg-mJb6-m6uWo8kj4Jk8JP5jqXIYrK_iw')))
+2025-01-16 09:15:53,002 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:53,002 - INFO - Request to files/upload
+2025-01-16 09:15:53,077 - ERROR - Failed to upload nan: ApiError('c7330390e601477a85e809c7aed917b7', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhc3cUcSY_Od2Yp8Dh2HB1rLNRjY4zFrWjJ2PKVFzHzT4Q')))
+2025-01-16 09:15:53,079 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:53,079 - INFO - Request to files/upload
+2025-01-16 09:15:53,088 - ERROR - Failed to upload i1-3-1-1: ApiError('5cc9df4837644e88bb873fd9417f446d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukqHKNye35OjRxf0rZ8Twg0XVDmI59ZWcBC3ixUCcLAnIA')))
+2025-01-16 09:15:53,088 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:53,088 - INFO - Request to files/upload
+2025-01-16 09:15:53,384 - ERROR - Failed to upload i1-1-1-1: ApiError('8ef19baa38a74024b11ca513d65b5a99', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuBJWajX5jcVLqCMZqJ6zewrazx97NgK12y7YaAcyLh7Sw')))
+2025-01-16 09:15:53,384 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:53,384 - INFO - Request to files/upload
+2025-01-16 09:15:53,997 - ERROR - Failed to upload i1-1-1-2: ApiError('aaa734f9bfd2478bbae5e5ed5ff3e941', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuc8ED1rtpx7uPvpkJhI80_0mZqiPx4IqZC8710wToio4g')))
+2025-01-16 09:15:53,999 - ERROR - Failed to upload i1-1-1-1: ApiError('0f5871f51a8945d8b2a2cd0dd34e294f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIus06vVZ4AC5nt6WPNH8kdRzYNjU8eyfSnHAo2n9uEInxIw')))
+2025-01-16 09:15:53,999 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:53,999 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:53,999 - INFO - Request to files/upload
+2025-01-16 09:15:53,999 - INFO - Request to files/upload
+2025-01-16 09:15:54,349 - ERROR - Failed to upload i1-1-1-2: ApiError('cb321263c2ac4b39a46fac920802e692', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugFuTV0pGz1m9LNfVmPZHcAGk6C8dvcAfAi-UdE97BZVKQ')))
+2025-01-16 09:15:54,359 - ERROR - Failed to upload i1-1-1-1: ApiError('202927244c524dc0a498fea3bc2da602', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurGEEVHM-Y6D2jjcB3p2bDs8aQ_xxElX-bx2eUI3tE2N4A')))
+2025-01-16 09:15:54,359 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 09:15:54,359 - ERROR - Failed to upload i1-1-1-1: ApiError('beca9ccddaf445cfa966448559af17f5', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumRG0Wix9IS5epBV_XnASPwsGLQn0XdsC3PEI9uViN5T2g')))
+2025-01-16 09:15:54,359 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-3.jpg
+2025-01-16 09:15:54,359 - INFO - Request to files/upload
+2025-01-16 09:15:54,359 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:54,359 - INFO - Request to files/upload
+2025-01-16 09:15:54,359 - INFO - Request to files/upload
+2025-01-16 09:15:55,020 - ERROR - Failed to upload i1-1-1-1: ApiError('8924aa74d40a470c944e02b3ce75dcd3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuvYRw3JZpsubWFDf327p-syERtudht1nSmcHNaq_j3MQCA')))
+2025-01-16 09:15:55,020 - ERROR - Failed to upload i1-1-1-1: ApiError('ebf738aefe154bdaa03eb7f2ea5219fd', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIushDZARkfSLQ2bZarXlSaZhZlbuANnfAWU92TybZtHNAFw')))
+2025-01-16 09:15:55,020 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:55,020 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:55,029 - INFO - Request to files/upload
+2025-01-16 09:15:55,029 - INFO - Request to files/upload
+2025-01-16 09:15:55,229 - ERROR - Failed to upload i1-1-1-3: ApiError('e8b74424ebf34db1bfc8db27ba8c5cf1', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuq0zFrYSL67SAZ2SZxxd8zvi_M2rg6gnNQvb0QftCLePFg')))
+2025-01-16 09:15:55,230 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:55,230 - INFO - Request to files/upload
+2025-01-16 09:15:55,331 - ERROR - Failed to upload i1-1-1-1: ApiError('bd57e489ac3b4c81a25370d603ef44f2', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuq7_Y_xoVQagclo-LI1TUbeFIQHB1zETMFw03osKKptBGQ')))
+2025-01-16 09:15:55,331 - ERROR - Failed to upload i1-1-1-2: ApiError('2323d777dbaa46448e25ad9df0dbc1de', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurhOYS2RTppVNNxoJVlBQ0jM4C-36ixyhtePgClFvfqhgQ')))
+2025-01-16 09:15:55,331 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 09:15:55,331 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:55,331 - INFO - Request to files/upload
+2025-01-16 09:15:55,331 - INFO - Request to files/upload
+2025-01-16 09:15:56,034 - ERROR - Failed to upload i1-1-1-2: ApiError('9a29aa8baa3e41479ff2143684e4105d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIujcX8PuaVlc5qw3Zub6SBA1d1agy634I6HgOHtQuirWR6Q')))
+2025-01-16 09:15:56,050 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,050 - ERROR - Failed to upload i1-1-1-2: ApiError('02dc890e629a48ff947aead8b27514dc', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIup6XaHM_Ivq73BteZ02iNo86vEOumBAvkBa9QMUq2G6oQg')))
+2025-01-16 09:15:56,050 - INFO - Request to files/upload
+2025-01-16 09:15:56,050 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,050 - INFO - Request to files/upload
+2025-01-16 09:15:56,168 - ERROR - Failed to upload i1-1-1-2: ApiError('88fef6e83911415db6e2ecbe46cc64e3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumXpX9HhKauH_Cyy7LBE_UTUa4fOyCDR45YGlJMxNZa4og')))
+2025-01-16 09:15:56,168 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,168 - INFO - Request to files/upload
+2025-01-16 09:15:56,351 - ERROR - Failed to upload i1-1-2-1: ApiError('e32f33db307a4d50b2072ed4af3860d0', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugTE8mvN-nl9StqQDIBCiaRJGRicY2lZMsfX3vib1LeLMQ')))
+2025-01-16 09:15:56,351 - ERROR - Failed to upload i1-1-1-2: ApiError('d2c1f550f10e4cbd947df14e139106fe', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukimmYj2-6uqJcyD9WNYTxLzNAQbVUKvlHefN46OQdknRQ')))
+2025-01-16 09:15:56,351 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,351 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,351 - INFO - Request to files/upload
+2025-01-16 09:15:56,351 - INFO - Request to files/upload
+2025-01-16 09:15:56,969 - ERROR - Failed to upload i1-1-2-1: ApiError('c75dfc40feae44d3a80347356360d415', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuqBwBy714NKVeP3DE0nP3oMRAlFbe-5dY-21dl6M8N07Zw')))
+2025-01-16 09:15:56,969 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 09:15:56,969 - INFO - Request to files/upload
+2025-01-16 09:15:56,982 - ERROR - Failed to upload i1-1-2-1: ApiError('c68016afe6864d6496177fad087ce890', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukR3RvP7VmJ7JONoEHUuOQnoet5UBtDoBCXlRuPhJHRaYA')))
+2025-01-16 09:15:56,989 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:56,989 - INFO - Request to files/upload
+2025-01-16 09:15:57,170 - ERROR - Failed to upload i1-1-2-1: ApiError('dcd40d3571524bf8a94eea04f7309d66', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuqn6jkw7u6kD_JTp0Ku_Tkt0-0h5BnFulmE-8XN0szyUlA')))
+2025-01-16 09:15:57,170 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:57,170 - INFO - Request to files/upload
+2025-01-16 09:15:57,277 - ERROR - Failed to upload i1-1-2-1: ApiError('6086e5eab2b1483d90e9b3e051fb3903', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuoJjHD909H3EMv6RFUoUalYscBbEBCBeTif0pmik6NU3vA')))
+2025-01-16 09:15:57,277 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:57,277 - INFO - Request to files/upload
+2025-01-16 09:15:57,578 - ERROR - Failed to upload i1-1-2-1: ApiError('57b33b6cc0ce45098a6d6e290095cfdc', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugQy-s8vkRprVHwiJVnCFP9XX0CzrmPZFHaO4R_liqpkmg')))
+2025-01-16 09:15:57,583 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:57,583 - INFO - Request to files/upload
+2025-01-16 09:15:58,197 - ERROR - Failed to upload i1-2-1-1: ApiError('68622745278743029329fd508701e78f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuvO73vt6avj2640n8-dRwYprQiw36PWeATzGd_P3r99_tw')))
+2025-01-16 09:15:58,197 - ERROR - Failed to upload i1-1-2-1: ApiError('efe6cec03e354d1ba497e6f92ff73926', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukhbhzKvLP_slYqMZbgDE0zQGLloTA71mvWWlo-OftHt0g')))
+2025-01-16 09:15:58,197 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:58,197 - ERROR - Failed to upload i1-2-1-1: ApiError('703900a6e6cd454a84ab105f2a9523bc', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuiEDVdCsElrjl7GvRZ3Ce51vmMaQoOkZL48E2s9-BRAyoA')))
+2025-01-16 09:15:58,200 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:58,200 - INFO - Request to files/upload
+2025-01-16 09:15:58,200 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:58,200 - INFO - Request to files/upload
+2025-01-16 09:15:58,200 - INFO - Request to files/upload
+2025-01-16 09:15:58,298 - ERROR - Failed to upload i1-2-1-2: ApiError('9a6be676b0c442d988821727e65949e8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIujYCSVy7HQSHH5_F8KmywvRi4lS6XVMNHNjnpdrJ36vPBA')))
+2025-01-16 09:15:58,298 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:58,298 - INFO - Request to files/upload
+2025-01-16 09:15:58,503 - ERROR - Failed to upload i1-2-1-2: ApiError('f6d3b219e5fc4780a68202d6074902b8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuu36twmPhKPv9gEILocY3IMNOcL36V9T8fMGEiNdCLwUEQ')))
+2025-01-16 09:15:58,503 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 09:15:58,503 - INFO - Request to files/upload
+2025-01-16 09:15:59,225 - ERROR - Failed to upload i1-2-1-2: ApiError('00284470895047799240864de6075c0b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIut4kmRsLKEKitT4Uhl07YRLryKqpiQaQAzCyHfweure4LA')))
+2025-01-16 09:15:59,227 - ERROR - Failed to upload i1-2-1-2: ApiError('461f30f4fadb4701b12c71a3dc3203ba', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuiBZ9_Rez2ZtU7mWUW6uBHCPbOrfdyQFJ_GBw02UiuJtSg')))
+2025-01-16 09:15:59,227 - ERROR - Failed to upload i1-2-1-2: ApiError('dbd99879fabe4f9baa6d9ec773e672b6', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhBueQ8UO_8zgiAIL3zC4jjWlFI68a3Okedg3Fe-2HfaYQ')))
+2025-01-16 09:15:59,227 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:59,228 - ERROR - Failed to upload i1-2-1-2: ApiError('1262ffa5d0444616ba58ee8238c44eb3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIum1XRhSX6asx7AV2dcNKpEYUNVQYNeVhcXph1wmWqxWzAw')))
+2025-01-16 09:15:59,228 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:59,228 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:59,228 - INFO - Request to files/upload
+2025-01-16 09:15:59,228 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:59,228 - INFO - Request to files/upload
+2025-01-16 09:15:59,230 - INFO - Request to files/upload
+2025-01-16 09:15:59,230 - INFO - Request to files/upload
+2025-01-16 09:15:59,528 - ERROR - Failed to upload i1-2-1-2: ApiError('0b26581039f74040b2844420e3670768', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuj_VS0fEtbFgmPjneLPiqfL1O8aaF0ouhTjIydcdVTE2qg')))
+2025-01-16 09:15:59,528 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 09:15:59,528 - INFO - Request to files/upload
+2025-01-16 09:16:00,251 - ERROR - Failed to upload i1-2-1-1: ApiError('e8e818b0b74e48d18a9cb7074981c877', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuqzHv8T2FpfSH_hPMJYBIv-Xdv__UE_tkgg2slTMRofBKg')))
+2025-01-16 09:16:00,251 - ERROR - Failed to upload i1-2-1-1: ApiError('981cbdf6aa9741d2a786a1f814c81b63', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuokGNuP7oNyq451681TnOYLzZd3viB_GgSlRgUHHGxt_HA')))
+2025-01-16 09:16:00,251 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:00,252 - ERROR - Failed to upload i1-2-1-1: ApiError('623c2465e57f419fb9efc417db350c6f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIut73zTjvub3rvLblFA8mg7Tig3UosotyOx25FtWGG0Gv3g')))
+2025-01-16 09:16:00,252 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:00,252 - ERROR - Failed to upload i1-2-1-1: ApiError('5454ece3f6a345e2964eb0cda13c0f17', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuxIYQ8x6PiGJIkZjztmpxzudVXTJWHIpu5di3Sy1RTpMA')))
+2025-01-16 09:16:00,252 - INFO - Request to files/upload
+2025-01-16 09:16:00,252 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:00,252 - INFO - Request to files/upload
+2025-01-16 09:16:00,252 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:00,252 - INFO - Request to files/upload
+2025-01-16 09:16:00,252 - INFO - Request to files/upload
+2025-01-16 09:16:00,474 - ERROR - Failed to upload i1-2-1-1: ApiError('2189aeb54b4d4b658c6897609bd08e24', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurs4AmJOM_zNB4l-YZdqdPpqupdowXtZF5x8tT7A2RnJUg')))
+2025-01-16 09:16:00,474 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:00,474 - INFO - Request to files/upload
+2025-01-16 09:16:01,166 - ERROR - Failed to upload i1-2-2-2: ApiError('e25da37467624599a21d2f70eace28d5', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukdBk1TVAv-u7iiBfVlYYoJNBKm8Umci1DLZ-k__5lbmHA')))
+2025-01-16 09:16:01,166 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:01,166 - INFO - Request to files/upload
+2025-01-16 09:16:01,282 - ERROR - Failed to upload i1-2-2-2: ApiError('6560196a333049a597a87dc5611b84e0', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIutJbNWV3Pu-YBR3Z8hv87tPCe5aBm_Kb2cM_-VXhcX8QGw')))
+2025-01-16 09:16:01,286 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:01,286 - ERROR - Failed to upload i1-2-2-2: ApiError('5328973e01b14d4c8a16a1a9175f140f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIui5DP7x2TyMQMGHNDCXGJTHS3e0nO-FuIylzY0zWaC3UmA')))
+2025-01-16 09:16:01,286 - INFO - Request to files/upload
+2025-01-16 09:16:01,286 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 09:16:01,288 - INFO - Request to files/upload
+2025-01-16 09:16:01,296 - ERROR - Failed to upload i1-2-2-1: ApiError('ddc1dd581a71441a9711534cf97ca1ed', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIusL-ANLw286mSHtiuASbszZcTTfyaqPH4P_dRN9HiDakRA')))
+2025-01-16 09:16:01,297 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:01,297 - INFO - Request to files/upload
+2025-01-16 09:16:01,583 - ERROR - Failed to upload i1-2-2-2: ApiError('45b13df6010e4d08bdf15ad7d06ff40f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumRY2tbSFT_xdnf02uQECf7KmsCNwWNRU9VNAf79uBHwXg')))
+2025-01-16 09:16:01,583 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:01,583 - INFO - Request to files/upload
+2025-01-16 09:16:02,192 - ERROR - Failed to upload i1-2-2-2: ApiError('3cf3cba47b844c54bbc2a32bc9c66594', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIulkusyfrusPHZhGO8X49k3xaWF--rT7AeO-Xe0jhPwgcBA')))
+2025-01-16 09:16:02,196 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:02,196 - INFO - Request to files/upload
+2025-01-16 09:16:02,290 - ERROR - Failed to upload i1-2-2-1: ApiError('44329ddc3fbb4b9ab5a11715c17562ec', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugG51OV5q8XiZId9ZlbEihODfEjE7I2op0pnfS2XyXrU5w')))
+2025-01-16 09:16:02,290 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:02,290 - INFO - Request to files/upload
+2025-01-16 09:16:02,305 - ERROR - Failed to upload i1-2-2-2: ApiError('49e4f3a2313d480098cd644ef8aad838', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuoJJ6hzHTBPT1xmXUTxkO6Kb6yxyLn36aPyEJCl8LHkrJg')))
+2025-01-16 09:16:02,305 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:02,305 - INFO - Request to files/upload
+2025-01-16 09:16:02,329 - ERROR - Failed to upload i1-2-2-2: ApiError('b46e8865de744183a2aaf8956b3963e0', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuqqKSxYoQF1wiLGuN8L6oCnG8-kYxBATQcT7CWnbjLASiQ')))
+2025-01-16 09:16:02,329 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 09:16:02,329 - INFO - Request to files/upload
+2025-01-16 09:16:02,486 - ERROR - Failed to upload i1-2-2-1: ApiError('5ec00ed99c824db0a528364760f24f42', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuveTVNP0vQrpk9hwmPDXmoMFB6KiNE3Ac9tntIosl1d41Q')))
+2025-01-16 09:16:02,486 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:02,486 - INFO - Request to files/upload
+2025-01-16 09:16:03,212 - ERROR - Failed to upload i1-2-2-1: ApiError('007cede0b0314a5397d8b116c9f3dc50', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIulZLsTRN0A319Ve2ejw6_XTqJTMhOJD0w6E8lpri4cIKDw')))
+2025-01-16 09:16:03,214 - ERROR - Failed to upload i1-2-2-1: ApiError('9e87dbdd0ef64ab786d7f81c345f74fe', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuomXd3vKU1zYdvLo9AKVgMWySVF-FJbsRdeQxiyfsUKRFA')))
+2025-01-16 09:16:03,214 - ERROR - Failed to upload i1-2-2-1: ApiError('89f5b727e1514676a3e2d07f7881e497', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurXhW5JGh_Mne5MoLjFPqpnG5pjgfddHtUda0tsoI8mz9A')))
+2025-01-16 09:16:03,216 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:03,216 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:03,216 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:03,216 - INFO - Request to files/upload
+2025-01-16 09:16:03,217 - INFO - Request to files/upload
+2025-01-16 09:16:03,217 - INFO - Request to files/upload
+2025-01-16 09:16:03,323 - ERROR - Failed to upload i1-2-2-1: ApiError('abdf6dd4164e44ccaf6001f111cc10f2', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuDajUIzU9fUdtvWj9el13liO7m29nVKwmmQBBplEkvYBQ')))
+2025-01-16 09:16:03,323 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:03,328 - INFO - Request to files/upload
+2025-01-16 09:16:03,421 - ERROR - Failed to upload i1-1-2-1-1: ApiError('250a892ce1384fc28f4ea874cb889c63', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIusKAKIk4j57DpTAed6nDC5K7a8J6WMtRkRjh-8YSICIS4w')))
+2025-01-16 09:16:03,421 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:03,421 - INFO - Request to files/upload
+2025-01-16 09:16:04,240 - ERROR - Failed to upload i1-1-2-1-2: ApiError('f3be48b2421f4c02a1dd7b535ca6f23f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurqUfO8x8iofFwjnt8eDKGoGuHeB8o6F7IfPAi4dNFuWBQ')))
+2025-01-16 09:16:04,241 - ERROR - Failed to upload i1-1-2-1-1: ApiError('5acc2f63e07c45f7a9a17986ceb569c3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunszmmNtYLzdo4jAs1xV5g_DXlD5L2JfbLV-2wDcRGj4qw')))
+2025-01-16 09:16:04,241 - ERROR - Failed to upload i1-1-2-1-2: ApiError('ff07c10bbed24037b1d4add750074e0d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhZan3gjBSdJv_zFqu_NsdMKuLDBqUkk3Oy0FoAxcgYNeA')))
+2025-01-16 09:16:04,241 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:04,242 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:04,242 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 09:16:04,242 - INFO - Request to files/upload
+2025-01-16 09:16:04,242 - INFO - Request to files/upload
+2025-01-16 09:16:04,242 - INFO - Request to files/upload
+2025-01-16 09:16:04,346 - ERROR - Failed to upload i1-1-2-1-2: ApiError('27343dd15f034968b9a4227ec49fcf9b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuh2XOrvaO5Y4hYOCf7jbWZQ7wxxEZ62m55YVdewxsjXhtw')))
+2025-01-16 09:16:04,346 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:04,347 - INFO - Request to files/upload
+2025-01-16 09:16:04,442 - ERROR - Failed to upload i1-1-2-1-2: ApiError('92aac2f6614a4059b75c0662d1a0b8c1', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuo3xSwSya1akjlm21heEmflOzLCB2jwps8rdeU4NFFDqRg')))
+2025-01-16 09:16:04,444 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:04,444 - INFO - Request to files/upload
+2025-01-16 09:16:05,163 - ERROR - Failed to upload i1-1-2-1-2: ApiError('85e06480eda4422899db66659bb331e3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIupdsIJl9uLBJNANbXhNyQxmW-WSWApZs0jY98RD_tq22Qw')))
+2025-01-16 09:16:05,164 - ERROR - Failed to upload i1-1-2-1-2: ApiError('47c879fb22574977835f389c9a5ae973', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunT2vWweOkn9Mnh8R9HJHDd1j3b6Ly1u1Cbe3o_HIO66Ag')))
+2025-01-16 09:16:05,164 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:05,164 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:05,164 - INFO - Request to files/upload
+2025-01-16 09:16:05,165 - INFO - Request to files/upload
+2025-01-16 09:16:05,277 - ERROR - Failed to upload i1-1-2-1-2: ApiError('48645dac9a0c4751afa5873e351b87e1', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurTLKiSnC8RGAIbyy8NwtEt7TZkrUHSEKJts87LsIAw9-Q')))
+2025-01-16 09:16:05,277 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 09:16:05,281 - INFO - Request to files/upload
+2025-01-16 09:16:05,366 - ERROR - Failed to upload i1-1-2-1-1: ApiError('1d64716f799840499793597485ea6d9a', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuoF59b6SURApcGW7De2bWGuwUAABF897-RWpr0sEMHwxtA')))
+2025-01-16 09:16:05,366 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/nan.jpg
+2025-01-16 09:16:05,366 - INFO - Request to files/upload
+2025-01-16 09:16:05,470 - ERROR - Failed to upload i1-1-2-1-1: ApiError('cf622f2a87214053a294ddeb63cf7f9b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunbvhzpkUC9LSMy0elXQVos9gOa63uxWrh82z0WStL6leA')))
+2025-01-16 09:16:06,286 - ERROR - Failed to upload i1-1-2-1-1: ApiError('37a5ab7a26124cc5ac7429b515af8471', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunYZTD7_cUlB7YvcAQ4zoQNHe_HSWgJofaD0J-bCET8wnw')))
+2025-01-16 09:16:06,291 - ERROR - Failed to upload i1-1-2-1-1: ApiError('be35b9a4e3f3463289fdda638f1b1279', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunkZFNbbTIdPgUGYpUNcFNiMmNoWP3ri9BTfRJlDhFPI5Q')))
+2025-01-16 09:16:06,291 - ERROR - Failed to upload i1-1-2-1-1: ApiError('f47640f04eea4eca806e406cc6573f16', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIulrqS2WaDW6qjmZNibI6c4QTWPLN3fyvVTKXA-6ulb7zqA')))
+2025-01-16 09:16:06,293 - ERROR - Failed to upload nan: ApiError('b5c36a0206cb45edb5bb457f0bb8ceb4', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIujHexGhygyucd5JswNHzVzrKWfaX9bmDvMLlzC-t-rcrlA')))
+2025-01-16 09:16:06,343 - INFO - Uploading images to Dropbox...
+2025-01-16 09:16:06,349 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:06,350 - INFO - Request to files/upload
+2025-01-16 09:16:06,350 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:06,350 - INFO - Request to files/upload
+2025-01-16 09:16:06,350 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:06,353 - INFO - Request to files/upload
+2025-01-16 09:16:06,354 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:06,355 - INFO - Request to files/upload
+2025-01-16 09:16:06,357 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:06,361 - INFO - Request to files/upload
+2025-01-16 09:16:07,316 - ERROR - Failed to upload i1-2-2-1-1: ApiError('6d352ec669d3467099f2ebd64e7f95d5', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuj_idLdwwUZsVX9JsULzHNIbXxH32CelksY1Eu1gBJHASA')))
+2025-01-16 09:16:07,316 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:07,316 - ERROR - Failed to upload i1-2-2-1-1: ApiError('7a7006e2246348bb9c828eb0f700457e', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuzZUahQw5gXSYICmuMwRRToAfRcz24ip_FeyJibW-M9Lw')))
+2025-01-16 09:16:07,316 - INFO - Request to files/upload
+2025-01-16 09:16:07,316 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:07,316 - INFO - Request to files/upload
+2025-01-16 09:16:07,329 - ERROR - Failed to upload i1-2-2-1-1: ApiError('120a3f24e8b347d8adfab87bead3474f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIus8dFbutZSzdMCHkBfd1bUhkPDeM1VMaKZP_PY9YUDdDLg')))
+2025-01-16 09:16:07,329 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 09:16:07,329 - INFO - Request to files/upload
+2025-01-16 09:16:07,336 - ERROR - Failed to upload i1-2-2-1-2: ApiError('ecb8ab7daf014a298713c5a0029d74f3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIujNxQZz7zcdAD49nKfjHIXh4nsXi8lZbuyklAwnBVco1iw')))
+2025-01-16 09:16:07,336 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:07,336 - INFO - Request to files/upload
+2025-01-16 09:16:07,413 - ERROR - Failed to upload i1-2-2-1-1: ApiError('2f3d3501f8c1407d9675c696b10eb72d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukWhXJtcFXTZfrnRvjoSzj7DDp665MpXTK1K9vb3I2mnXQ')))
+2025-01-16 09:16:07,413 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:07,413 - INFO - Request to files/upload
+2025-01-16 09:16:08,335 - ERROR - Failed to upload i1-2-2-1-1: ApiError('7e7aa165178d4d9984f7778ca7941ff3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhp0Bdxu_BI3sdrBA-tcYq38dZAsy_zyO5uEBk5-daJJFw')))
+2025-01-16 09:16:08,335 - ERROR - Failed to upload i1-2-2-1-1: ApiError('1b3fdc2d0bc9445e8048a83b0160d2f3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIun9UhRI_DfMX5tPKtbZ9lammAz7jIkb44vvjr8ltR7Mecw')))
+2025-01-16 09:16:08,335 - ERROR - Failed to upload i1-2-2-1-1: ApiError('39d2d0aa861343558341b4ef871b1956', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuubDXbOSt06LzCQQpAVCSkNwW9aoJMvvYaFkLU9fANv-jg')))
+2025-01-16 09:16:08,335 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:08,335 - ERROR - Failed to upload i1-2-2-1-2: ApiError('b3a76b9c66954c60b7d3b10b93e4b021', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhi55P9FE5qLt3i5oCsXfDotT2iapeQyqzhMTIi0lk5DIQ')))
+2025-01-16 09:16:08,335 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:08,335 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:08,335 - INFO - Request to files/upload
+2025-01-16 09:16:08,335 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 09:16:08,335 - INFO - Request to files/upload
+2025-01-16 09:16:08,335 - INFO - Request to files/upload
+2025-01-16 09:16:08,335 - INFO - Request to files/upload
+2025-01-16 09:16:08,430 - ERROR - Failed to upload i1-2-2-1-2: ApiError('a04c2cd8cdc34c179a7dee254c3b9692', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuotmDXJbdSJ7sCQZK_F4QbmOO13-LQ18aUq5gx81k_pwOg')))
+2025-01-16 09:16:08,430 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:08,430 - INFO - Request to files/upload
+2025-01-16 09:16:09,262 - ERROR - Failed to upload i1-2-2-1-2: ApiError('c2b7766f7b914f129f8fb8b0f4ef1e65', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIug4_8bzP9DcUi2cmGtxBhHdSSlwyyaIuGqR8YF7LFCfWnA')))
+2025-01-16 09:16:09,262 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:09,262 - INFO - Request to files/upload
+2025-01-16 09:16:09,281 - ERROR - Failed to upload i1-2-2-1-2: ApiError('9fc2b1679ab34464baae8d520b831dee', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIug5_7mZMq9TxoqZSPK08lXXQjry6ES4Q0JeAOcP5EKLDgA')))
+2025-01-16 09:16:09,281 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:09,281 - INFO - Request to files/upload
+2025-01-16 09:16:09,462 - ERROR - Failed to upload i1-2-2-1-2: ApiError('be64afa676634f36ac82b45b05644c86', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIum42g4rzqWM_ae19TphfxVFbQoU7RN5UlzmhhnH6FqH0Ig')))
+2025-01-16 09:16:09,462 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:09,462 - INFO - Request to files/upload
+2025-01-16 09:16:09,468 - ERROR - Failed to upload i1-2-2-1-2: ApiError('4448f71b811a4b068bc7bfc3d5c7717b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurMeHgzkoRsP6LfJjeBg2SDxxc6iG8n8oKRewdpBOvpwxQ')))
+2025-01-16 09:16:09,468 - ERROR - Failed to upload i1-2-2-2-1: ApiError('887da5e7fd9f4f7d9bf1cb2a9f747672', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIutXXoo8KIq0RLE0_vV75E2jy453R_blLJdCY9LiE0M4q_Q')))
+2025-01-16 09:16:09,468 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:09,470 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:09,470 - INFO - Request to files/upload
+2025-01-16 09:16:09,470 - INFO - Request to files/upload
+2025-01-16 09:16:10,286 - ERROR - Failed to upload i1-2-2-2-2: ApiError('22b623cc4fd847a38ad60b121809349f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuiBQAOBR2Dn3jR43bflJxncaMg30p6k_W-A28VuFWkoJzw')))
+2025-01-16 09:16:10,286 - ERROR - Failed to upload i1-2-2-2-1: ApiError('4ee8a61550ad4528a3dddb10d778ec9b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuh26mUDQ_fNLDDcEg-46PSviyr6GtSWzL1IMRMVLK5o87w')))
+2025-01-16 09:16:10,286 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:10,289 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 09:16:10,289 - INFO - Request to files/upload
+2025-01-16 09:16:10,289 - INFO - Request to files/upload
+2025-01-16 09:16:10,414 - ERROR - Failed to upload i1-2-2-2-1: ApiError('b80548869e0f42f18198d7debdb67dd3', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuufYaDc6SQcmUEaWeI9NaFctMTp2qlatztGgEcPcg7ehNA')))
+2025-01-16 09:16:10,414 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:10,414 - INFO - Request to files/upload
+2025-01-16 09:16:10,414 - ERROR - Failed to upload i1-2-2-2-1: ApiError('2f398dabb8564ee19b43a35a5ad07be4', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIut_zKdBEadWAGAUmONt5GzBoBj0yGonhdnzDOIQxgNiDUw')))
+2025-01-16 09:16:10,414 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:10,414 - INFO - Request to files/upload
+2025-01-16 09:16:10,462 - ERROR - Failed to upload i1-2-2-2-1: ApiError('99915d81576a43dc8a38f7d24cfe74d8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuifV9AAQEZh5ygEDnbmc8_o8ZHPJaoXPiD4B4JRrvuFZPQ')))
+2025-01-16 09:16:10,462 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:10,462 - INFO - Request to files/upload
+2025-01-16 09:16:11,207 - ERROR - Failed to upload i1-2-2-2-1: ApiError('2ead6192de0a466caa8b53003aca94b0', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuvIuxRKgzpbXJe5WKCyY_vBWywMhvHc8aUZGyp9-BtSWmA')))
+2025-01-16 09:16:11,207 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:11,207 - INFO - Request to files/upload
+2025-01-16 09:16:11,304 - ERROR - Failed to upload i1-2-2-2-1: ApiError('b992e177a7e2434d83689322f34adbb8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuj8CW8tShMlUgHopvn3A8TmyCixtiJqxm1Q3TX56pRpEkQ')))
+2025-01-16 09:16:11,304 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:11,304 - INFO - Request to files/upload
+2025-01-16 09:16:11,415 - ERROR - Failed to upload i1-2-2-2-2: ApiError('64b1029045d248839794770cc310660d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugtAlxiPt0b3LLibvNGyxivbIMM36tzvcvNlQGgVt-JSYQ')))
+2025-01-16 09:16:11,415 - INFO - Uploading to path: //1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 09:16:11,415 - INFO - Request to files/upload
+2025-01-16 09:16:11,415 - ERROR - Failed to upload i1-2-2-2-2: ApiError('c6f676037c4847828101fd1c3ec64aa8', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurYohc6Va4gwpit0ZHr57lOrHulzkE71pPgaqBOV7glRzQ')))
+2025-01-16 09:16:11,415 - ERROR - Failed to upload i1-2-2-2-2: ApiError('49b80befe0c34db18884157bcf1fac93', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuibUEsmZM8rbOKgr2f0n8Ze48FHoS6t3Y1x3MU098L5n4Q')))
+2025-01-16 09:16:11,415 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:11,415 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:11,415 - INFO - Request to files/upload
+2025-01-16 09:16:11,415 - INFO - Request to files/upload
+2025-01-16 09:16:12,329 - ERROR - Failed to upload i1-2-2-2-2: ApiError('31035ce48ddb4184a904dd6eda2d0851', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuillJM4K4Njsd1GLIWbP4h93kE9M5v416uOlOuSjfYGNuw')))
+2025-01-16 09:16:12,329 - ERROR - Failed to upload i1-2-2-2-2: ApiError('6eb88e2697d2446e8f6d4f6b115d13ef', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhPr6phQRoz-vBKTUsiCagSHnnWEOZjO6sacuUXr8l4Yog')))
+2025-01-16 09:16:12,329 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:12,329 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('fc44f3948ee54832a423e12675040e19', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIul5iuUoedS6LP0E4DDNguZORlJxjazwhtofAF3a9KFN9hA')))
+2025-01-16 09:16:12,329 - ERROR - Failed to upload i1-2-2-2-2: ApiError('ea57f7cedf8f40749a9ec778ba8056b6', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIupXqNOCQzIdVzfPFbl6KczXVsSyPc3gC0dEwIp0dPuWyxw')))
+2025-01-16 09:16:12,329 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:12,329 - INFO - Request to files/upload
+2025-01-16 09:16:12,329 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:12,329 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:12,329 - INFO - Request to files/upload
+2025-01-16 09:16:12,329 - INFO - Request to files/upload
+2025-01-16 09:16:12,329 - INFO - Request to files/upload
+2025-01-16 09:16:12,427 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('f6ba7084a6024a2695cf898dd222d2d9', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumP6jHZGwH4ZkyzNyTCMnOylxrzQ7hec4a3ABg1OdY1ipg')))
+2025-01-16 09:16:12,427 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:12,427 - INFO - Request to files/upload
+2025-01-16 09:16:13,240 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('37c6c202ab54449684bf6975a380ef01', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuk0j48rCm8grHdIZ5d21r0amZX-fCBiEkdy__J3mQDnoow')))
+2025-01-16 09:16:13,240 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:13,240 - INFO - Request to files/upload
+2025-01-16 09:16:13,362 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('aeba84f62c934cd9a0655e964b2e8675', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunPnEsFN01pXe7n_TIoUm_pblB38GWdW9sQDuCv4iVI0NA')))
+2025-01-16 09:16:13,362 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('82f57de252ae46edbc2df99250ac9f1f', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIusDyq0oI8PRHJesbn-2KR1wh5dVrtCEr_hnGC4TOhX0r7g')))
+2025-01-16 09:16:13,362 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 09:16:13,362 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:13,362 - INFO - Request to files/upload
+2025-01-16 09:16:13,362 - INFO - Request to files/upload
+2025-01-16 09:16:13,453 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('7cfedaed6a1049b19294764cbe107eeb', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukrbfMB-MYxauzf-mGqoWxchenVZbaUUoq2E4rTZuuwFaQ')))
+2025-01-16 09:16:13,453 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:13,453 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('86160c12118145688f0cd8899a669e9d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuv5DFYFjokZF1vj5e9czkqSh2XnHBW8suuZvLYc4Ttyp5Q')))
+2025-01-16 09:16:13,453 - INFO - Request to files/upload
+2025-01-16 09:16:13,455 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:13,456 - INFO - Request to files/upload
+2025-01-16 09:16:14,381 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('ef5d1a3a4bc044c7bdbe60a869ea1d3c', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIup7ACBp464vA996oCayd823WpvygZXOQm6csIEzIYoIEVw')))
+2025-01-16 09:16:14,381 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:14,381 - INFO - Request to files/upload
+2025-01-16 09:16:14,383 - ERROR - Failed to upload i1-1-2-2-1-1: ApiError('f1b72158654c4ff0b98a2eb214af0d00', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIusC3KLySaAueVM7XXIEuk9eS1tD8m8qdiFSzdLjqc1bhrg')))
+2025-01-16 09:16:14,383 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 09:16:14,383 - INFO - Request to files/upload
+2025-01-16 09:16:14,393 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('155aaa7f999e4db489607d9de6633e86', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukHcCs4f01O7M4a5PCqLs7AxSQxRV8JzsZ_5bCnFQYh4Dw')))
+2025-01-16 09:16:14,393 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:14,393 - INFO - Request to files/upload
+2025-01-16 09:16:14,407 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('f5b718915cde490d9b292bc77701fc26', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuuO7T9bU0jZkL1L4T4aeCesR-NRyfK5F4md28cPADYWV1Q')))
+2025-01-16 09:16:14,407 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:14,407 - INFO - Request to files/upload
+2025-01-16 09:16:14,675 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('563df25d9f75406a924b57b9c1453f89', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIurdJz1XR7wnB9o6TIgJ9oxfc3PLx-bFiXtXp2u71xKTX9Q')))
+2025-01-16 09:16:14,675 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:14,683 - INFO - Request to files/upload
+2025-01-16 09:16:15,285 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('bf11add118cd4695954783fba2c3f28b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIul4bzzxG-MD3pa8nVNJRVzYXFoH66ynBT5yaFnYI7LwCNA')))
+2025-01-16 09:16:15,301 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:15,301 - INFO - Request to files/upload
+2025-01-16 09:16:15,301 - ERROR - Failed to upload i1-1-2-2-1-2: ApiError('b41412aeb3c040278f2c7fc936d1d1fe', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIukAAEeWrCZzEBTlRnkmHps7HrHN98dhsX2gdHBgeqOTIzA')))
+2025-01-16 09:16:15,301 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:15,301 - INFO - Request to files/upload
+2025-01-16 09:16:15,490 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('a4bf3a08aaf94967848c82262959c300', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIugA1i6-1wz7etvxu_IjoXAnvHdpWJBiLzUweZeb43NWIwg')))
+2025-01-16 09:16:15,490 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('55a87b8abd40451e81b56b7144bedb11', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuv0PONdWqAd7VGqwaVW9LDC0xkJj4_vaG_GEW8qWH1znjQ')))
+2025-01-16 09:16:15,490 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:15,490 - INFO - Uploading to path: //1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 09:16:15,490 - INFO - Request to files/upload
+2025-01-16 09:16:15,490 - INFO - Request to files/upload
+2025-01-16 09:16:15,807 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('b67b491d0fa346ee8179a98dc672aa83', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIumVvvTGdIZrVI1cgN8X-W0gyBtzOCMv4kntsY7ajSmS26w')))
+2025-01-16 09:16:16,219 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('d1d89712e6bc40af95da27252c9be12d', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuo3y_hwuiP8Qc4nxAcJWt0j7OdtqjqzQ8Nj98sqBWz2nQQ')))
+2025-01-16 09:16:16,410 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('6ae6426fd8194e55b29e6ddf5970c03b', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIuhQ1ZCSNeSQORuR7EjzwOTBZ6NjtyHZyURGF2wd7875yRw')))
+2025-01-16 09:16:16,410 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('618af14ef66646ca9b4cb209c8f1bafd', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIug-5D-JOAYgv5M0vSKRgwf6y4qCCoHWAy0gyx1-RZVBuGw')))
+2025-01-16 09:16:16,442 - ERROR - Failed to upload i1-1-2-2-2-1: ApiError('13e384c3816242199567610f19d4a718', UploadError('path', UploadWriteFailed(reason=WriteError('malformed_path', None), upload_session_id='pid_upload_session:ABIIunqOmoYoep4qHJj8ah8A8H_h2XTeAh6Iw99WE9149fCrUg')))
+2025-01-16 09:16:16,457 - INFO - Total time taken for full process: 25.915385199943557 seconds
+2025-01-16 09:16:16,458 - INFO - Process started at 2025-01-16 09:15:50 and ended at 2025-01-16 09:16:16
+2025-01-16 09:33:08,879 - INFO - Process started at 2025-01-16 09:33:08
+2025-01-16 09:33:08,916 - INFO - Total time taken for full process: 0.035343400202691555 seconds
+2025-01-16 09:33:08,917 - INFO - Process started at 2025-01-16 09:33:08 and ended at 2025-01-16 09:33:08
+2025-01-16 09:33:38,444 - INFO - Process started at 2025-01-16 09:33:38
+2025-01-16 09:33:38,489 - INFO - Connecting to db
+2025-01-16 09:33:38,505 - INFO - Fetching data from DB...
+2025-01-16 09:33:39,094 - INFO - Folder path calculating
+2025-01-16 09:33:39,133 - INFO - Connecting to Dropbox
+2025-01-16 09:33:39,155 - INFO - Total time taken for full process: 0.712581800064072 seconds
+2025-01-16 09:33:39,157 - INFO - Process started at 2025-01-16 09:33:38 and ended at 2025-01-16 09:33:39
+2025-01-16 09:40:01,022 - INFO - Process started at 2025-01-16 09:40:01
+2025-01-16 09:40:01,057 - INFO - Total time taken for full process: 0.03639020002447069 seconds
+2025-01-16 09:40:01,057 - INFO - Process started at 2025-01-16 09:40:01 and ended at 2025-01-16 09:40:01
+2025-01-16 09:40:24,024 - INFO - Process started at 2025-01-16 09:40:24
+2025-01-16 09:40:24,054 - INFO - Connecting to db
+2025-01-16 09:40:24,060 - INFO - Fetching data from DB...
+2025-01-16 09:40:24,689 - INFO - Folder path calculating
+2025-01-16 09:40:24,723 - INFO - Connecting to Dropbox
+2025-01-16 09:40:24,737 - INFO - Total time taken for full process: 0.7221045999322087 seconds
+2025-01-16 09:40:24,746 - INFO - Process started at 2025-01-16 09:40:24 and ended at 2025-01-16 09:40:24
+2025-01-16 10:02:57,711 - INFO - Process started at 2025-01-16 10:02:57
+2025-01-16 10:02:57,733 - INFO - Total time taken for full process: 0.012164499843493104 seconds
+2025-01-16 10:02:57,733 - INFO - Process started at 2025-01-16 10:02:57 and ended at 2025-01-16 10:02:57
+2025-01-16 10:03:51,856 - INFO - Process started at 2025-01-16 10:03:51
+2025-01-16 10:03:51,875 - INFO - Connecting to db
+2025-01-16 10:03:51,883 - INFO - Fetching data from DB...
+2025-01-16 10:03:52,407 - INFO - Folder path calculating
+2025-01-16 10:03:52,443 - INFO - Connecting to Dropbox
+2025-01-16 10:03:52,533 - INFO - Uploading images to Dropbox...
+2025-01-16 10:03:52,541 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/nan.jpg
+2025-01-16 10:03:52,541 - INFO - Request to files/upload
+2025-01-16 10:03:52,541 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/nan.jpg
+2025-01-16 10:03:52,541 - INFO - Uploading to path: /1/To be Filed(1-3)/nan.jpg
+2025-01-16 10:03:52,541 - INFO - Request to files/upload
+2025-01-16 10:03:52,541 - INFO - Request to files/upload
+2025-01-16 10:03:52,543 - INFO - Uploading to path: /1/To be Filed(1-3)/BULK_EXPORT/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/i1-3-1-1.jpg
+2025-01-16 10:03:52,543 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:52,546 - INFO - Request to files/upload
+2025-01-16 10:03:52,546 - INFO - Request to files/upload
+2025-01-16 10:03:54,241 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:54,241 - INFO - Request to files/upload
+2025-01-16 10:03:54,535 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:54,535 - INFO - Request to files/upload
+2025-01-16 10:03:55,158 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:55,158 - INFO - Request to files/upload
+2025-01-16 10:03:55,652 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:55,652 - INFO - Request to files/upload
+2025-01-16 10:03:55,652 - INFO - Ratelimit: Retrying in 1.0 seconds.
+2025-01-16 10:03:55,866 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:55,866 - INFO - Request to files/upload
+2025-01-16 10:03:55,991 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:55,991 - INFO - Request to files/upload
+2025-01-16 10:03:56,477 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:56,477 - INFO - Request to files/upload
+2025-01-16 10:03:56,656 - INFO - Request to files/upload
+2025-01-16 10:03:56,681 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-1.jpg
+2025-01-16 10:03:56,681 - INFO - Request to files/upload
+2025-01-16 10:03:57,101 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-3.jpg
+2025-01-16 10:03:57,101 - INFO - Request to files/upload
+2025-01-16 10:03:57,124 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:57,125 - INFO - Request to files/upload
+2025-01-16 10:03:57,600 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:57,601 - INFO - Request to files/upload
+2025-01-16 10:03:57,813 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:57,813 - INFO - Request to files/upload
+2025-01-16 10:03:58,124 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:58,124 - INFO - Request to files/upload
+2025-01-16 10:03:58,209 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/holiday(1-1-1)/i1-1-1-2.jpg
+2025-01-16 10:03:58,209 - INFO - Request to files/upload
+2025-01-16 10:03:58,323 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:58,323 - INFO - Request to files/upload
+2025-01-16 10:03:58,922 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:58,922 - INFO - Request to files/upload
+2025-01-16 10:03:59,346 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:59,346 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:59,346 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:59,346 - INFO - Request to files/upload
+2025-01-16 10:03:59,346 - INFO - Request to files/upload
+2025-01-16 10:03:59,346 - INFO - Request to files/upload
+2025-01-16 10:03:59,646 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:03:59,646 - INFO - Request to files/upload
+2025-01-16 10:04:00,075 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/i1-1-2-1.jpg
+2025-01-16 10:04:00,075 - INFO - Request to files/upload
+2025-01-16 10:04:00,481 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:00,481 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:00,481 - INFO - Request to files/upload
+2025-01-16 10:04:00,481 - INFO - Request to files/upload
+2025-01-16 10:04:00,560 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:00,560 - INFO - Request to files/upload
+2025-01-16 10:04:00,889 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:00,889 - INFO - Request to files/upload
+2025-01-16 10:04:01,108 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:01,108 - INFO - Request to files/upload
+2025-01-16 10:04:01,906 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:01,906 - INFO - Request to files/upload
+2025-01-16 10:04:02,000 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:02,000 - INFO - Request to files/upload
+2025-01-16 10:04:02,220 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:02,220 - INFO - Request to files/upload
+2025-01-16 10:04:02,236 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-2.jpg
+2025-01-16 10:04:02,236 - INFO - Request to files/upload
+2025-01-16 10:04:02,518 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:02,518 - INFO - Request to files/upload
+2025-01-16 10:04:03,139 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:03,139 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:03,139 - INFO - Request to files/upload
+2025-01-16 10:04:03,139 - INFO - Request to files/upload
+2025-01-16 10:04:03,545 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:03,545 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Boxing(1-2-1)/i1-2-1-1.jpg
+2025-01-16 10:04:03,545 - INFO - Request to files/upload
+2025-01-16 10:04:03,545 - INFO - Request to files/upload
+2025-01-16 10:04:03,545 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:03,545 - INFO - Request to files/upload
+2025-01-16 10:04:04,369 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:04,369 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:04,369 - INFO - Request to files/upload
+2025-01-16 10:04:04,369 - INFO - Request to files/upload
+2025-01-16 10:04:04,620 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:04,620 - INFO - Request to files/upload
+2025-01-16 10:04:04,670 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:04,670 - INFO - Request to files/upload
+2025-01-16 10:04:04,867 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:04,867 - INFO - Request to files/upload
+2025-01-16 10:04:05,688 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:05,688 - INFO - Request to files/upload
+2025-01-16 10:04:05,797 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-2.jpg
+2025-01-16 10:04:05,797 - INFO - Request to files/upload
+2025-01-16 10:04:06,000 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:06,000 - INFO - Request to files/upload
+2025-01-16 10:04:06,513 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:06,513 - INFO - Request to files/upload
+2025-01-16 10:04:06,816 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:06,816 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:06,816 - INFO - Request to files/upload
+2025-01-16 10:04:06,816 - INFO - Request to files/upload
+2025-01-16 10:04:06,848 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:06,848 - INFO - Request to files/upload
+2025-01-16 10:04:07,337 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/i1-2-2-1.jpg
+2025-01-16 10:04:07,340 - INFO - Request to files/upload
+2025-01-16 10:04:07,936 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:07,936 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:07,936 - INFO - Request to files/upload
+2025-01-16 10:04:07,936 - INFO - Request to files/upload
+2025-01-16 10:04:08,046 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:08,046 - INFO - Request to files/upload
+2025-01-16 10:04:08,140 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:08,156 - INFO - Request to files/upload
+2025-01-16 10:04:08,156 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:08,156 - INFO - Request to files/upload
+2025-01-16 10:04:09,274 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:09,274 - INFO - Request to files/upload
+2025-01-16 10:04:09,288 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:09,288 - INFO - Request to files/upload
+2025-01-16 10:04:09,482 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:09,490 - INFO - Request to files/upload
+2025-01-16 10:04:09,989 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-2.jpg
+2025-01-16 10:04:09,998 - INFO - Request to files/upload
+2025-01-16 10:04:09,998 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:09,998 - INFO - Request to files/upload
+2025-01-16 10:04:10,294 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:10,294 - INFO - Request to files/upload
+2025-01-16 10:04:10,499 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:10,499 - INFO - Request to files/upload
+2025-01-16 10:04:10,609 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:10,609 - INFO - Request to files/upload
+2025-01-16 10:04:10,703 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Jack Reacher(1-1-2-1)/i1-1-2-1-1.jpg
+2025-01-16 10:04:10,703 - INFO - Request to files/upload
+2025-01-16 10:04:11,345 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/nan.jpg
+2025-01-16 10:04:11,345 - INFO - Request to files/upload
+2025-01-16 10:04:12,892 - INFO - Uploading images to Dropbox...
+2025-01-16 10:04:12,898 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:12,902 - INFO - Request to files/upload
+2025-01-16 10:04:12,902 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:12,904 - INFO - Request to files/upload
+2025-01-16 10:04:12,905 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:12,905 - INFO - Request to files/upload
+2025-01-16 10:04:12,908 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:12,909 - INFO - Request to files/upload
+2025-01-16 10:04:12,911 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:12,915 - INFO - Request to files/upload
+2025-01-16 10:04:13,886 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:13,886 - INFO - Request to files/upload
+2025-01-16 10:04:14,090 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:14,090 - INFO - Request to files/upload
+2025-01-16 10:04:14,200 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-1.jpg
+2025-01-16 10:04:14,200 - INFO - Request to files/upload
+2025-01-16 10:04:14,218 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:14,218 - INFO - Request to files/upload
+2025-01-16 10:04:14,294 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:14,294 - INFO - Request to files/upload
+2025-01-16 10:04:14,593 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:14,593 - INFO - Request to files/upload
+2025-01-16 10:04:15,218 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:15,218 - INFO - Request to files/upload
+2025-01-16 10:04:15,281 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:15,281 - INFO - Request to files/upload
+2025-01-16 10:04:15,313 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Family(1-2-2-1)/i1-2-2-1-2.jpg
+2025-01-16 10:04:15,313 - INFO - Request to files/upload
+2025-01-16 10:04:15,376 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:15,376 - INFO - Request to files/upload
+2025-01-16 10:04:15,517 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:15,517 - INFO - Request to files/upload
+2025-01-16 10:04:16,442 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:16,442 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:16,442 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:16,442 - INFO - Request to files/upload
+2025-01-16 10:04:16,442 - INFO - Request to files/upload
+2025-01-16 10:04:16,442 - INFO - Request to files/upload
+2025-01-16 10:04:16,754 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:16,754 - INFO - Request to files/upload
+2025-01-16 10:04:17,033 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:17,033 - INFO - Request to files/upload
+2025-01-16 10:04:17,442 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-1.jpg
+2025-01-16 10:04:17,443 - INFO - Request to files/upload
+2025-01-16 10:04:17,580 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:17,580 - INFO - Request to files/upload
+2025-01-16 10:04:17,887 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:17,887 - INFO - Request to files/upload
+2025-01-16 10:04:18,188 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:18,188 - INFO - Request to files/upload
+2025-01-16 10:04:18,603 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:18,603 - INFO - Request to files/upload
+2025-01-16 10:04:18,695 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:18,695 - INFO - Request to files/upload
+2025-01-16 10:04:18,905 - INFO - Uploading to path: /1/Tyson,Michael,Gerard(1999-01-01),1-2/Daily(1-2-2)/Friends(1-2-2-2)/i1-2-2-2-2.jpg
+2025-01-16 10:04:18,905 - INFO - Request to files/upload
+2025-01-16 10:04:18,920 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:18,920 - INFO - Request to files/upload
+2025-01-16 10:04:19,418 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:19,418 - INFO - Request to files/upload
+2025-01-16 10:04:19,524 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:19,525 - INFO - Request to files/upload
+2025-01-16 10:04:20,233 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:20,233 - INFO - Request to files/upload
+2025-01-16 10:04:20,330 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:20,330 - INFO - Request to files/upload
+2025-01-16 10:04:20,849 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:20,851 - INFO - Request to files/upload
+2025-01-16 10:04:20,950 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:20,950 - INFO - Request to files/upload
+2025-01-16 10:04:21,154 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:21,162 - INFO - Request to files/upload
+2025-01-16 10:04:21,484 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-1.jpg
+2025-01-16 10:04:21,484 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:21,484 - INFO - Request to files/upload
+2025-01-16 10:04:21,484 - INFO - Request to files/upload
+2025-01-16 10:04:21,891 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:21,891 - INFO - Request to files/upload
+2025-01-16 10:04:22,085 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:22,088 - INFO - Request to files/upload
+2025-01-16 10:04:22,088 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:22,088 - INFO - Request to files/upload
+2025-01-16 10:04:22,896 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/MI2(1-1-2-2-1)/i1-1-2-2-1-2.jpg
+2025-01-16 10:04:22,896 - INFO - Request to files/upload
+2025-01-16 10:04:22,896 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:22,896 - INFO - Request to files/upload
+2025-01-16 10:04:23,194 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:23,194 - INFO - Request to files/upload
+2025-01-16 10:04:23,210 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:23,210 - INFO - Request to files/upload
+2025-01-16 10:04:24,331 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:24,339 - INFO - Request to files/upload
+2025-01-16 10:04:24,339 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:24,339 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:24,339 - INFO - Request to files/upload
+2025-01-16 10:04:24,339 - INFO - Request to files/upload
+2025-01-16 10:04:24,556 - INFO - Uploading to path: /1/Cruise,Thomas,Mapother(1999-01-01),1-1/movie_photos(1-1-2)/Mission Impossible(1-1-2-2)/Mission Impossible 1(1-1-2-2-2)/i1-1-2-2-2-1.jpg
+2025-01-16 10:04:24,556 - INFO - Request to files/upload
+2025-01-16 10:04:25,771 - INFO - Total time taken for full process: 33.9177507001441 seconds
+2025-01-16 10:04:25,771 - INFO - Process started at 2025-01-16 10:03:51 and ended at 2025-01-16 10:04:25
